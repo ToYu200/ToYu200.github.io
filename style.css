@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #d8d8d8;
+}
+
+input,
+button,
+select {
+    padding: 8px;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .controls {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        flex: 1;
+    }
+
+    button,
+    select {
+        flex-shrink: 0;
+    }
+
+    input,
+    button,
+    select {
+        font-size: 16px;
+        margin: 5px 0;
+        width: 200px;
+        box-sizing: border-box;
+        background-color: orange;
+    }
+}
